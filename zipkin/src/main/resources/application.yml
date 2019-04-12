@@ -2,7 +2,9 @@ spring:
   application:
     name: zipkin
   rabbitmq:
-    host: rabbitmq
+    host: 192.168.56.102
+    username: root
+    password: root
 
 server:
   port: 9411

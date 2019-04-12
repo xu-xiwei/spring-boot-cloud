@@ -20,7 +20,9 @@ ribbon:
 
 spring:
   rabbitmq:
-    host: rabbitmq
+    host: 192.168.56.102
+    username: root
+    password: root
   sleuth:
     sampler:
       percentage: 1

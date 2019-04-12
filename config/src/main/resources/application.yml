@@ -20,7 +20,9 @@ spring:
           uri: https://github.com/zhangxd1989/spring-boot-cloud
           search-paths: config-repo
   rabbitmq:
-    host: rabbitmq
+    host: 192.168.56.102
+    username: root
+    password: root
 
 security:
   user:
